@@ -3,18 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeroens Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Welkom op Mijn Portfolio</h1>
-        </div>
+    <header>
+		<div class="hero-image">
+			<div class="hero-text">			
+				<h1>Welkom</h1>
+					<nav>
+						<ul>
+							<li><a href="#over-mij">Over mij</a></li>
+							<li><a href="#cv">CV</a></li>
+							<li><a href="#projecten">Projecten</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+						<p>Lorem Ipsum</p>					
+						<button>Hire me</button>
+			</div>
+		</div>
     </header>
-
+    <main>
+        <section id="over-mij">
+            <h2>Over mij</h2>
+            <p>Hier komt een korte introductie over wie je bent en wat je doet.</p>
+        </section>
+        <section id="cv">
+            <h2>Mijn CV</h2>
+            <p>Hier kun je een interactieve versie van je CV plaatsen.</p>
+        </section>
+        <section id="projecten">
+            <h2>Projecten</h2>
+            <p>Een lijst van projecten waar je aan hebt gewerkt.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Je contactgegevens en/of een formulier.</p>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2025 Mijn Portfolio</p>
+        <p>© 2025 [Jouw Naam]. Alle rechten voorbehouden.</p>
     </footer>
 </body>
 </html>
